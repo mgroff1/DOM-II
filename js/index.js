@@ -149,3 +149,7 @@ this.decOrNot === 'y' ? this.decOrNot = true:this.decOrNot = false;
 /////////////////////////////////////////////////////////////
 ///////////////////THE END////////////////////////////////
 //////////////////////////////////////////////////////////////
+body.addEventListener('click', (event) => {
+  let rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+  body.style.backgroundColor = rndCol;
+});
